@@ -1,13 +1,12 @@
 ---
 layout: layout.liquid
-title: Random Name Generator
+title: What's in a Name?
 ---
 
 <div class="container text-center mt-5" x-data="nameGenerator()">
 
-  <h1 class="mb-4">Random Name Generator</h1>
+  <h1 class="mb-4">What's in a Name?</h1>
 
-  <!-- This is where the random name shows -->
   <h1 class="name-display mb-4" x-text="currentName"></h1>
 
   <button class="btn btn-primary" @click="getRandomName()">
@@ -16,5 +15,4 @@ title: Random Name Generator
 
 </div>
 
-<!-- Your JS file -->
 <script src="/app.js"></script>
