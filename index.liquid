@@ -4,15 +4,13 @@ title: What's in a Name?
 ---
 
 <div class="container text-center mt-5" x-data="nameGenerator()">
-
   <h1 class="mb-4">What's in a Name?</h1>
 
-  <h1 class="name-display mb-4" x-text="currentName"></h1>
+  <h1 class="name-display mb-4" x-text="currentName">Click the button</h1>
 
   <button class="btn btn-primary" @click="getRandomName()">
     Generate Name
   </button>
-
 </div>
 
 <script src="/app.js"></script>
