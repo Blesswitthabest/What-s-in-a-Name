@@ -12,12 +12,11 @@ function nameGenerator() {
       "Quinn",
       "Rowan"
     ],
-
     currentName: "Click the button",
 
     getRandomName() {
-      let randomIndex = Math.floor(Math.random() * this.names.length);
-      this.currentName = this.names[randomIndex];
+      let index = Math.floor(Math.random() * this.names.length);
+      this.currentName = this.names[index];
     }
   };
 }
